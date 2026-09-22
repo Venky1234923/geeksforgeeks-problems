@@ -15,7 +15,8 @@ class Solution {
                 if(sum == target) {
                     return true;
                 }
-                else if(sum < target) {
+
+                if(sum < target) {
                     left++;
                 }
                 else {
